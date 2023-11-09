@@ -1,0 +1,65 @@
+:root {
+    --cor0: #2192FF;
+    --cor1: #38E54D;
+    --cor2: #9CFF2E;
+    --cor3: #FDFF00;
+
+    --fonte-padrao: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background: var(--cor0);
+    background: linear-gradient(135deg, var(--cor0), var(--cor1));
+    background-repeat: no-repeat;
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    margin: 20px 0 20px;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+
+}
+
+img {
+    width: 260px;
+}
+
+.design {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.dev {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+footer {
+    color: white;
+    padding: 20px;
+    margin-top: auto;
+    text-align: center;
+    font-weight: 300;
+}
