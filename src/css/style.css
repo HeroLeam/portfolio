@@ -4,8 +4,9 @@
     --cor2: #9CFF2E;
     --cor3: #FDFF00;
 
-    --transparencia0: rgba(31, 147, 255, 0.50);
-    --transparencia1: rgba(56, 229, 76, 0.50);
+    --transparencia0: rgba(255, 255, 255, 0.5);
+    --transparencia1: rgba(31, 147, 255, 0.5);
+    --transparencia2: rgba(56, 229, 76, 0.5);
 }
 
 body {
@@ -48,29 +49,21 @@ main {
 .conteudo {
     display: flex;
     flex-direction: row;
-
 }
 
-.design {
+.bloco {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
-    height: 300px;
-    background-color: white;
-    margin-right: 20px;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
     border-radius: 20px;
 }
 
-.dev {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
-    background-color: white;
-    border-radius: 20px;
-}
+.design {}
+
+.dev {}
 
 img {
     width: 80%;
@@ -79,13 +72,8 @@ img {
     transition: 0.2s ease;
 }
 
-.design>img:hover {
+.bloco>img:hover {
     box-shadow: 0px 0px 30px 5px var(--transparencia0);
-    transform: scale(1.03);
-}
-
-.dev>img:hover {
-    box-shadow: 0px 0px 30px 5px var(--transparencia1);
     transform: scale(1.03);
 }
 
