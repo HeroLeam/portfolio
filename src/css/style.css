@@ -6,8 +6,6 @@
 
     --transparencia0: rgba(31, 147, 255, 0.50);
     --transparencia1: rgba(56, 229, 76, 0.50);
-
-    --fonte-padrao: 'Roboto', sans-serif;
 }
 
 body {
@@ -18,7 +16,6 @@ body {
     background: var(--cor0);
     background: linear-gradient(135deg, var(--cor0), var(--cor2));
     background-repeat: no-repeat;
-    font-family: var(--fonte-padrao);
 }
 
 header {
@@ -27,6 +24,8 @@ header {
     padding: 15px;
     display: flex;
     justify-content: center;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 
 header a {
@@ -91,7 +90,8 @@ img {
 }
 
 footer {
-    font-weight: 300;
+    font-weight: 400;
+    letter-spacing: 2px;
     color: white;
     padding: 20px;
     margin-top: auto;
