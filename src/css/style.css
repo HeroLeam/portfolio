@@ -52,24 +52,23 @@ main {
 }
 
 .bloco {
+    width: 220px;
+    height: 200px;
+    margin: 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 220px;
-    height: 220px;
-    margin: 10px;
     border-radius: 20px;
 }
 
-.design {}
-
-.dev {}
-
-a>img {
-    width: 80%;
-    height: 80%;
-    border-radius: 50%;
+.bloco>a>img {
     transition: 0.5s ease;
+}
+
+.texto {
+    font-weight: 500;
+    font-size: 2em;
 }
 
 .bloco>a>img:hover {
