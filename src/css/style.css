@@ -52,8 +52,6 @@ main {
 }
 
 .bloco {
-    width: 220px;
-    height: 200px;
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -73,6 +71,10 @@ main {
 
 .bloco>a>img:hover {
     transform: scale(1.2);
+}
+
+.esconder {
+    opacity: 0;
 }
 
 footer {
