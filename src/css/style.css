@@ -46,6 +46,11 @@ main {
     align-items: center;
 }
 
+main>h1 {
+    font-weight: 400;
+    font-size: 3em;
+}
+
 .conteudo {
     display: flex;
     flex-direction: row;
