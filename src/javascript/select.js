@@ -1,8 +1,22 @@
-const minhaImagem = document.querySelectorAll('.icone')
+const imagemIcone = document.querySelectorAll('.imagemIcone')
+const imagemSelecao = document.querySelectorAll('.imagemSelecao')
 
-minhaImagem.addEventListener("mouseover", function () {
-  minhaImagem.classList.add("animar");
-});
-minhaImagem.addEventListener("mouseout", function () {
-  minhaImagem.classList.remove("animar");
-});
+imagemIcone.forEach(function (item) {
+  item.addEventListener("mouseover", function () {
+    const imagemIconeAtivo = document.querySelector(".animarImagem")
+    if (imagemIconeAtivo) {
+      imagemIconeAtivo.classList.remove("animarImagem")
+    }
+    item.classList.add("animarImagem")
+  })
+})
+
+imagemSelecao.forEach(function (item) {
+  item.addEventListener("mouseover", function () {
+    const imagemSelecaoAtivo = document.querySelector(".esconder")
+    if (imagemSelecaoAtivo) {
+      imagemSelecaoAtivo.classList.remove("esconder")
+    }
+    item.classList.add("esconder")
+  })
+})
