@@ -1,5 +1,6 @@
 const imagemIcone = document.querySelectorAll(".imagemIcone")
 const imagemSelecao = document.querySelectorAll(".imagemSelecao")
+const paragrafoTexto = document.querySelectorAll(".texto")
 
 adicionaAnimacao()
 

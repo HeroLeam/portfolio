@@ -1,0 +1,11 @@
+:root {
+    --cor0: #00b1ff;
+    --cor1: #0092b2;
+    --cor2: #0d36ff;
+    --cor3: #00ff36;
+    --cor4: #00b326;
+
+    --transparencia0: rgba(255, 255, 255, 0.5);
+    --transparencia1: rgba(31, 147, 255, 0.5);
+    --transparencia2: rgba(56, 229, 76, 0.5);
+}

@@ -9,7 +9,3 @@
         transform: scale(1);
     }
 }
-
-.animarImagem {
-    animation: zoomInAndOut 0.5s infinite;
-}

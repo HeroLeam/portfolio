@@ -19,6 +19,19 @@ main {
     border-radius: 20px;
 }
 
+.bloco>p{
+    margin-top: 20px;
+    font-size: 2.2em;
+}
+
+.bloco>a:hover {
+    background-image: url(../image/box-selection.gif);
+}
+
+.imagemIcone:hover {
+    animation: zoomInAndOut 0.8s infinite;
+}
+
 .texto {
     font-weight: 500;
     font-size: 2em;
