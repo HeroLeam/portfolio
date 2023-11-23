@@ -19,7 +19,11 @@ main {
     border-radius: 20px;
 }
 
-.bloco>p{
+.selecaoIcone {
+    margin-bottom: 20px;
+}
+
+.texto {
     margin-top: 20px;
     font-size: 2.2em;
 }

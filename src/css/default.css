@@ -24,8 +24,7 @@ header a {
 
 header a:hover {
     color: var(--cor3);
-    transform: scale(1.2);
-    animation: zoomInAndOut 0.5s infinite;
+    animation: zoomOutAndIn 0.4s infinite;
 }
 
 h1 {
