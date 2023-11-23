@@ -5,3 +5,25 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+.selecaoItem {
+    position: relative;
+    height: 80px;
+    dis;
+}
+
+.selecaoItem>.texto {
+    position: absolute;
+    font-size: 2em;
+    z-index: 1;
+}
+
+.selecaoItem>.icon {
+    position: absolute;
+    z-index: 1;
+    height: 80%;
+}
+
+.imageButton {
+    height: 100%;
+}
