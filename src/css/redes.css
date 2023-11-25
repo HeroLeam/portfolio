@@ -9,7 +9,6 @@ main {
 .bloco-redes {
     margin: 30px;
     width: 100vw;
-    background-color: aliceblue;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -4,15 +4,15 @@ document.addEventListener("DOMContentLoaded", function () {
   const imagensSelecao = document.querySelectorAll(".imagemIconeSelecao")
   const paragrafoTexto = document.querySelectorAll(".texto")
 
-  let imagemSelecionadaIndex = null;
-  
-  imagemSelecionadaIndex = selecaoDosItens(imagensIcone, imagemSelecionadaIndex, imagensSelecao, paragrafoTexto);
+  let imagemSelecionadaIndex = null
 
-  imagemSelecionadaIndex = removeSelecaoDosItens(imagensSelecao, paragrafoTexto, imagemSelecionadaIndex);
-  trocaImagemKeyboard()
+  imagemSelecionadaIndex = selecaoDosItens(imagensIcone, imagemSelecionadaIndex, imagensSelecao, paragrafoTexto)
+
+  imagemSelecionadaIndex = removeSelecaoDosItens(imagensSelecao, paragrafoTexto, imagemSelecionadaIndex)
 
   trocaImagemWacom()
 
+  trocaImagemKeyboard()
 })
 
 function selecaoDosItens(imagensIcone, imagemSelecionadaIndex, imagensSelecao, paragrafoTexto) {
@@ -53,23 +53,23 @@ function removeSelecaoDosItens(imagensSelecao, paragrafoTexto, imagemSelecionada
 function trocaImagemKeyboard() {
   document.getElementById('imagemIconeKeyboard').addEventListener('mouseover', function () {
     // Substitua 'imagem2.jpg' pelo caminho da sua segunda imagem
-    this.src = './src/image/keyboard.gif';
+    this.src = './src/image/keyboard.gif'
   });
 
   document.getElementById('imagemIconeKeyboard').addEventListener('mouseout', function () {
     // Substitua 'imagem1.jpg' pelo caminho da sua primeira imagem
-    this.src = './src/image/keyboard.png';
+    this.src = './src/image/keyboard.png'
   });
 }
 
 function trocaImagemWacom() {
   document.getElementById('imagemIconeWacom').addEventListener('mouseover', function () {
     // Substitua 'imagem2.jpg' pelo caminho da sua segunda imagem
-    this.src = './src/image/wacom.gif';
+    this.src = './src/image/wacom.gif'
   });
 
   document.getElementById('imagemIconeWacom').addEventListener('mouseout', function () {
     // Substitua 'imagem1.jpg' pelo caminho da sua primeira imagem
-    this.src = './src/image/wacom.png';
+    this.src = './src/image/wacom.png'
   });
 }
