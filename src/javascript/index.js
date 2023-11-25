@@ -12,21 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 })
 
-function removeSelecaoDosItens(imagensSelecao, paragrafoTexto, imagemSelecionadaIndex) {
-  document.addEventListener("mouseout", function () {
-    // Adiciona a classe esconder
-    imagensSelecao.forEach((imagemSelecao) => {
-      imagemSelecao.classList.add("esconder");
-    });
-    paragrafoTexto.forEach((paragrafo) => {
-      paragrafo.classList.add("esconder");
-    });
-    // Resetar o índice da imagem selecionada
-    imagemSelecionadaIndex = null;
-  });
-  return imagemSelecionadaIndex;
-}
-
 function selecaoDosItens(imagensIcone, imagemSelecionadaIndex, imagensSelecao, paragrafoTexto) {
   imagensIcone.forEach((imagemIcone, index) => {
     imagemIcone.addEventListener("mouseover", function () {
@@ -43,6 +28,21 @@ function selecaoDosItens(imagensIcone, imagemSelecionadaIndex, imagensSelecao, p
       // Atualizar o índice da imagem selecionada
       imagemSelecionadaIndex = index;
     });
+  });
+  return imagemSelecionadaIndex;
+}
+
+function removeSelecaoDosItens(imagensSelecao, paragrafoTexto, imagemSelecionadaIndex) {
+  document.addEventListener("mouseout", function () {
+    // Adiciona a classe esconder
+    imagensSelecao.forEach((imagemSelecao) => {
+      imagemSelecao.classList.add("esconder");
+    });
+    paragrafoTexto.forEach((paragrafo) => {
+      paragrafo.classList.add("esconder");
+    });
+    // Resetar o índice da imagem selecionada
+    imagemSelecionadaIndex = null;
   });
   return imagemSelecionadaIndex;
 }
