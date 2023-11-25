@@ -19,8 +19,9 @@ main {
     border-radius: 20px;
 }
 
-.selecaoIcone {
-    margin-bottom: 20px;
+.bloco > a {
+    position: relative;
+    display: inline-block;
 }
 
 .texto {
