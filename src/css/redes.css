@@ -1,5 +1,6 @@
 main {
     margin: 30px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,42 +9,49 @@ main {
 
 .bloco-redes {
     margin: 30px;
-    width: 100vw;
+    width: 800px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     padding: 10px;
     flex-direction: row;
-    align-items: center;
 }
 
 .redes {
-    margin: 10px auto ;
+    width: 150px;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: aqua;
-    width: 200px;
-    height: 70px;
-    padding: 10px;
-    border-radius: 20px;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
 }
 
-.icone {
-    position: relative;
-    display: flex;
-    align-items: center;
-    height: 100%;
+.imagemIconeSelecao {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 40px;
 }
 
 .imagemIcone {
-    position: absolute;
-    height: 90%;
+    width: 150px;
+}
+
+.redes>a:hover {
+    margin: auto;
+    background-image: url(../image/box-selection-small.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.imagemIcone:hover {
+    animation: zoomInAndOut 0.8s infinite;
 }
 
 .texto {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    font-size: 2em;
+    word-break: break-all;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.esconder {
+    opacity: 0;
 }

@@ -33,6 +33,10 @@ main {
     background-image: url(../image/box-selection.gif);
 }
 
+.imagemIconeSelecao{
+    padding-bottom: 20px;
+}
+
 .imagemIcone:hover {
     animation: zoomInAndOut 0.8s infinite;
 }
