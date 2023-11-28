@@ -3,7 +3,9 @@
     --cor1: #0092b2;
     --cor2: #0d36ff;
     --cor3: #00ff36;
+    --cor3h: hsl(133, 100%, 80%);
     --cor4: #00b326;
+    --cor4h: hsl(133, 100%, 55%);
 
     --transparencia0: rgba(255, 255, 255, 0.5);
     --transparencia1: rgba(31, 147, 255, 0.5);

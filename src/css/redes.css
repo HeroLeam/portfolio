@@ -9,7 +9,7 @@ main {
 
 .bloco-redes {
     margin: 30px;
-    width: 800px;
+    max-width: 800px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
