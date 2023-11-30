@@ -5,3 +5,24 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+h1 {
+    margin-bottom: 30px;
+}
+
+img {
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+.conteudo {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
