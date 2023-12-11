@@ -1,13 +1,14 @@
 :root {
-    --cor0: #00b1ff;
-    --cor1: #0092b2;
-    --cor2: #0d36ff;
-    --cor3: #00ff36;
-    --cor3h: hsl(133, 100%, 80%);
-    --cor4: #00b326;
-    --cor4h: hsl(133, 100%, 55%);
+    --cor0: hsl(198, 100%, 50%);
+    --cor0h: hsl(198, 100%, 80%);
+    --cor1: hsl(191, 100%, 35%);
+    --cor2: hsl(230, 100%, 53%);
+    --cor3: hsl(133, 100%, 50%);
+    --cor3h: hsl(133, 100%, 80%); /* Hover */
+    --cor4: hsl(133, 100%, 35%);
+    --cor4h: hsl(133, 50%, 65%); /* Hover */
 
-    --transparencia0: rgba(255, 255, 255, 0.5);
-    --transparencia1: rgba(31, 147, 255, 0.5);
-    --transparencia2: rgba(56, 229, 76, 0.5);
+    --transparencia0: hsla(0, 0%, 100%, 0.8);
+    --transparencia1: hsla(209, 100%, 56%, 0.8);
+    --transparencia2: hsla(127, 77%, 56%, 0.8);
 }

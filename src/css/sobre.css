@@ -7,6 +7,31 @@ main {
 
 h1 {
     margin-bottom: 30px;
+    color: white;
+}
+
+h2 {
+    color: var(--transparencia2);
+}
+
+h2:hover {
+    color: var(--cor3);
+}
+
+h3 {
+    color: var(--transparencia2);
+}
+
+h3:hover{
+    color: var(--cor3);
+}
+
+p {
+    color: var(--transparencia0);
+}
+
+p:hover {
+    color: white;
 }
 
 img {
@@ -22,6 +47,6 @@ img {
     flex-direction: column;
     align-items: center;
     text-align: justify;
-    letter-spacing: 0.1em;
-    line-height: 1.4em;
+    letter-spacing: 0.05em;
+    line-height: 1.2em;
 }

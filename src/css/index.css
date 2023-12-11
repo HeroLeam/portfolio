@@ -44,6 +44,8 @@ main {
 
 .texto {
     font-weight: 500;
+    color: white;
+    letter-spacing: 0.1em;
 }
 
 .esconder {
