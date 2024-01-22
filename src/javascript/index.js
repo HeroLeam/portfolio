@@ -53,23 +53,23 @@ function removeSelecaoDosItens(imagensSelecao, paragrafoTexto, imagemSelecionada
 function trocaImagemKeyboard() {
   document.getElementById('imagemIconeKeyboard').addEventListener('mouseover', function () {
     // Substitua 'imagem2.jpg' pelo caminho da sua segunda imagem
-    this.src = './src/images/keyboard.gif'
+    this.src = './src/images/icons/keyboard.gif'
   });
 
   document.getElementById('imagemIconeKeyboard').addEventListener('mouseout', function () {
     // Substitua 'imagem1.jpg' pelo caminho da sua primeira imagem
-    this.src = './src/images/keyboard.png'
+    this.src = './src/images/icons/keyboard.png'
   });
 }
 
 function trocaImagemWacom() {
   document.getElementById('imagemIconeWacom').addEventListener('mouseover', function () {
     // Substitua 'imagem2.jpg' pelo caminho da sua segunda imagem
-    this.src = './src/images/wacom.gif'
+    this.src = './src/images/icons/wacom.gif'
   });
 
   document.getElementById('imagemIconeWacom').addEventListener('mouseout', function () {
     // Substitua 'imagem1.jpg' pelo caminho da sua primeira imagem
-    this.src = './src/images/wacom.png'
+    this.src = './src/images/icons/wacom.png'
   });
 }

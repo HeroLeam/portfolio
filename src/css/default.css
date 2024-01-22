@@ -55,15 +55,6 @@ p {
     font-size: 1.2em;
 }
 
-iframe {
-    width: 300px;
-    height: 300px;
-}
-
-iframe:hover {
-    transform: scale(1.05);
-}
-
 footer {
     font-weight: 400;
     letter-spacing: 2px;
