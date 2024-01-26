@@ -9,7 +9,7 @@
 }
 
 .redes {
-    width: 150px;
+    width: 125px;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -23,14 +23,7 @@
 }
 
 .imagemIcone {
-    width: 150px;
-}
-
-.redes>a:hover {
-    margin: auto;
-    background-image: url(../images/box-selection-small.gif);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    width: 80px;
 }
 
 .imagemIcone:hover {

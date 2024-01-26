@@ -31,7 +31,7 @@ main {
 }
 
 .bloco>a:hover {
-    background-image: url(../images/box-selection.gif);
+    background-image: url(../images/icons/box-selection.gif);
 }
 
 .imagemIconeSelecao{
