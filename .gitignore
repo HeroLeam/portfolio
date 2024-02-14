@@ -6,3 +6,4 @@ src/assets/.DS_Store
 src/images/.DS_Store
 src/images/icons/.DS_Store
 src/images/social/.DS_Store
+*.db
