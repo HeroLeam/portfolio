@@ -10,7 +10,7 @@ Uma das características principais do site é a integração entre o meu trabal
 
 Além disso, o site conta com uma seção dedicada às minhas redes sociais, permitindo que os visitantes acompanhem meu trabalho e entrem em contato comigo facilmente.
 
-Visite [heroleam](index.html "Visite minha página") para conhecer mais sobre mim, meu trabalho e meus projetos!
+Visite [heroleam](https://heroleam.github.io/heroleam "Visite minha página") para conhecer mais sobre mim, meu trabalho e meus projetos!
 
 # Tecnologias utilizadas
 ## Front end
@@ -22,4 +22,4 @@ Visite [heroleam](index.html "Visite minha página") para conhecer mais sobre mi
 
 Thiago Leoni Amaral aka Heroleam
 
-[heroleam](index.html "Visite minha página")
+[heroleam](https://heroleam.github.io/heroleam "Visite minha página")
