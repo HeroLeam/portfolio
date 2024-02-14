@@ -1,5 +1,22 @@
+main {
+    color: white;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.6em;
+    margin-bottom: 30px;
+}
+
 .bloco-redes {
-    margin: 30px;
     max-width: 800px;
     display: flex;
     flex-wrap: wrap;
@@ -31,12 +48,39 @@
 }
 
 .texto {
-    word-break: break-all;
     font-weight: 500;
-    color: white;
     letter-spacing: 0.1em;
 }
 
 .esconder {
     opacity: 0;
+}
+
+@media screen and (min-width: 430px) {
+    h2{
+        text-align: center;
+    }
+    .bloco-redes {
+        max-width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        padding: 10px;
+        flex-direction: row;
+    }
+    .imagemIconeSelecao{
+        display: none;
+    }
+
+    .texto {
+        align-items: center;
+        text-align: center;
+        font-size: 1.2em;
+        margin: 10px;
+        letter-spacing: 0.05em;
+    }
+
+    .esconder {
+        opacity: 100;
+    }
 }

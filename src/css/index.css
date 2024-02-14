@@ -20,7 +20,7 @@ main {
     border-radius: 20px;
 }
 
-.bloco > a {
+.bloco>a {
     position: relative;
     display: inline-block;
 }
@@ -34,7 +34,7 @@ main {
     background-image: url(../images/icons/box-selection.gif);
 }
 
-.imagemIconeSelecao{
+.imagemIconeSelecao {
     padding-bottom: 20px;
 }
 
@@ -50,4 +50,31 @@ main {
 
 .esconder {
     opacity: 0;
+}
+
+@media screen and (min-width: 430px) {
+    main {
+        text-align: center;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .esconder {
+        opacity: 100;
+    }
+
+    .imagemIconeSelecao {
+        display: none;
+    }
+
+    .bloco {
+        margin: 0;
+    }
+
+    .texto {
+        margin-top: -50px;
+    }
 }
