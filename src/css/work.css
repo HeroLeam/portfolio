@@ -1,3 +1,7 @@
+main {
+    color: white;
+}
+
 .conteudo {
     max-width: 1000px;
     margin: 30px;
@@ -52,4 +56,40 @@
 
 .jobs:hover {
     transform: scale(1.05);
+}
+
+@media screen and (min-width: 312px) {
+    header {
+        font-size: 0.9em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 1.1em;
+        letter-spacing: 0.05em;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .conteudo {
+        margin: 30px;
+        max-width: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        letter-spacing: 0.1em;
+        line-height: 1.2em;
+    }
 }

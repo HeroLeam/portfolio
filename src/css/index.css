@@ -52,7 +52,11 @@ main {
     opacity: 0;
 }
 
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 312px) {
+    header {
+        font-size: 0.9em;
+    }
+
     main {
         text-align: center;
     }
