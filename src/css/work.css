@@ -1,7 +1,3 @@
-main {
-    color: white;
-}
-
 .conteudo {
     max-width: 1000px;
     margin: 30px;
@@ -25,9 +21,9 @@ main {
 }
 
 .botoes {
+    color: black;
     margin: 20px 0;
     display: flex;
-
 }
 
 .botao {
@@ -38,6 +34,7 @@ main {
 }
 
 .verMais {
+    color: black;
     background-color: var(--cor3);
     border-radius: 10px;
     padding: 10px 15px;
@@ -58,7 +55,7 @@ main {
     transform: scale(1.05);
 }
 
-@media screen and (min-width: 312px) {
+@media screen and (max-width: 460px) {
     header {
         font-size: 0.9em;
     }

@@ -52,7 +52,7 @@ main {
     opacity: 0;
 }
 
-@media screen and (min-width: 312px) {
+@media screen and (max-width: 460px) {
     header {
         font-size: 0.9em;
     }
