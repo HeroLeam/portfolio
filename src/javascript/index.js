@@ -21,12 +21,12 @@ function selecaoDosItens(imagensIcone, imagemSelecionadaIndex, imagensSelecao, p
       // Adicionar a classe esconder
       if (imagemSelecionadaIndex !== null) {
         imagensSelecao[imagemSelecionadaIndex].classList.add("esconder")
-        paragrafoTexto[imagemSelecionadaIndex].classList.add("esconder")
+        // paragrafoTexto[imagemSelecionadaIndex].classList.add("esconder")
       }
 
       // Remover a classe esconder
       imagensSelecao[index].classList.remove("esconder")
-      paragrafoTexto[index].classList.remove("esconder")
+      // paragrafoTexto[index].classList.remove("esconder")
 
       // Atualizar o índice da imagem selecionada
       imagemSelecionadaIndex = index
@@ -42,7 +42,7 @@ function removeSelecaoDosItens(imagensSelecao, paragrafoTexto, imagemSelecionada
       imagemSelecao.classList.add("esconder")
     });
     paragrafoTexto.forEach((paragrafo) => {
-      paragrafo.classList.add("esconder")
+      // paragrafo.classList.add("esconder")
     });
     // Resetar o índice da imagem selecionada
     imagemSelecionadaIndex = null

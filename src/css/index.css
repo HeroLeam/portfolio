@@ -43,6 +43,7 @@ main {
 }
 
 .texto {
+    margin-top: -50px;
     font-weight: 500;
     color: white;
     letter-spacing: 0.1em;
@@ -66,19 +67,11 @@ main {
         flex-direction: column;
     }
 
-    .esconder {
-        opacity: 100;
-    }
-
     .imagemIconeSelecao {
         display: none;
     }
 
     .bloco {
         margin: 0;
-    }
-
-    .texto {
-        margin-top: -50px;
     }
 }
