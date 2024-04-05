@@ -10,7 +10,8 @@
     <meta property="og:url" content="https://portfolio.herofield.com.br">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Portfolio HeroLeam">
-    <meta property="og:description" content="Conheça o portfólio de Thiago Leoni Amaral, um talentoso desenhista e desenvolvedor front-end.">
+    <meta property="og:description"
+        content="Conheça o portfólio de Thiago Leoni Amaral, um talentoso desenhista e desenvolvedor front-end.">
     <meta property="og:image" content="https://portfolio.herofield.com.br/src/images/emote/herosalu.png">
 
     <!-- Favicon -->
@@ -20,7 +21,7 @@
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/cores.css">
     <link rel="stylesheet" href="./src/css/default.css">
-    
+
     <link rel="stylesheet" href="./src/css/index.css">
     <link rel="stylesheet" href="./src/css/animation.css">
 </head>
@@ -36,24 +37,36 @@
         <h1>Minhas habilidades:</h1>
         <div class="conteudo">
             <div class="bloco">
-                <img class="imagemIconeSelecao esconder" src="./src/images/icons/select.gif" alt="Imagem animade de uma flecha de seleção">
+                <img class="imagemIconeSelecao esconder" src="./src/images/icons/select.gif"
+                    alt="Imagem animade de uma flecha de seleção">
                 <a href="design.html">
-                    <img id="imagemIconeWacom" class="imagemIcone" src="./src/images/icons/wacom.png" alt="Imagem animada de uma mesa digitalizadora">
+                    <img id="imagemIconeWacom" class="imagemIcone" src="./src/images/icons/wacom.png"
+                        alt="Imagem animada de uma mesa digitalizadora">
                 </a>
                 <p class="texto">Design</p>
             </div>
             <div class="bloco">
-                <img class="imagemIconeSelecao esconder" src="./src/images/icons/select.gif" alt="Imagem animade de uma flecha de seleção">
-                <a href="coding.html"><img id="imagemIconeKeyboard" class="imagemIcone" src="./src/images/icons/keyboard.png" alt="Imagem animada de um teclado"></a>
+                <img class="imagemIconeSelecao esconder" src="./src/images/icons/select.gif"
+                    alt="Imagem animade de uma flecha de seleção">
+                <a href="coding.html"><img id="imagemIconeKeyboard" class="imagemIcone"
+                        src="./src/images/icons/keyboard.png" alt="Imagem animada de um teclado"></a>
                 <p class="texto">Coding</p>
             </div>
         </div>
     </main>
+    <section class="contador">
+        <p id="counter">...</p>
+    </section>
     <footer>
         <p>by HeroLeam</p>
     </footer>
 
     <script src="./src/javascript/index.js"></script>
+    <!-- Importe o Firebase (sem usar módulos) -->
+    <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-database.js"></script>
+    <script src="./src/javascript/counter.js"></script>
+
 </body>
 
 </html>
