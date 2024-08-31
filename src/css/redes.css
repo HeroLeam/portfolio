@@ -43,7 +43,7 @@ h2 {
 }
 
 .imagemIcone:hover {
-    animation: zoomInAndOut 0.8s infinite;
+    animation: zoomInAndOut 0.85s infinite;
 }
 
 .texto {
