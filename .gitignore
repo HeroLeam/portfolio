@@ -7,3 +7,4 @@ src/images/.DS_Store
 src/images/icons/.DS_Store
 src/images/social/.DS_Store
 *.db
+src/images/emote/.DS_Store
