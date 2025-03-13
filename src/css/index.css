@@ -79,4 +79,12 @@ section {
     .bloco {
         margin: 0;
     }
+
+    #imagemIconeWacom {
+        content: url('../images/icons/wacom.gif');
+    }
+
+    #imagemIconeKeyboard {
+        content: url('../images/icons/keyboard.gif');
+    }
 }
