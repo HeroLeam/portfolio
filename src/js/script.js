@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initSelectableCards();
   initScrollReveal();
   initHeaderActiveLinks();
-  initSquareSkillCards();
+  initRandomCharacter();
 });
 
 function calcularAnos(inicio) {
@@ -145,4 +145,21 @@ function initHeaderActiveLinks() {
 
   window.addEventListener("scroll", updateActiveLink);
   updateActiveLink();
+}
+
+function initRandomCharacter() {
+  const heroImageElement = document.querySelector(".hero-image img");
+  if (!heroImageElement) return;
+
+  const totalDeImagens = 3;
+  const randomIndex = Math.floor(Math.random() * totalDeImagens) + 1;
+  const newSrc = `./src/image/character/${randomIndex}.png`;
+
+  const tempImg = new Image();
+  tempImg.src = newSrc;
+
+  tempImg.onload = () => {
+    heroImageElement.src = newSrc;
+    heroImageElement.classList.remove("is-loading");
+  };
 }

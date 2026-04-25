@@ -248,6 +248,13 @@ footer {
   justify-content: center;
 }
 
+/* Estilo para o GIF de carregamento ser menor */
+.hero-image img.is-loading {
+  width: 80px;
+  animation: none;
+  opacity: 0.6;
+}
+
 .hero-image::before {
   content: "";
   position: absolute;
